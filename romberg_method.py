@@ -4,7 +4,7 @@ import math
 
 # 26 * x * (math.exp(x))
 def f(x):
-    return 26 * x * (math.exp(x))
+    return 1/(1+x)
 
 def find_composite_trapezium(upper_limit, lower_limit, h):
     I_x = 0
@@ -61,7 +61,7 @@ def romberg_simpson_method(upper_limit, lower_limit, N):
     return I_x
 
 
-print(romberg_simpson_method(3, 0,3))
+print(romberg_simpson_method(1, 0,2))
 
 # print(romberg_trapezium_method(1, 0,2))
 

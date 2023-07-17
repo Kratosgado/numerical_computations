@@ -1,6 +1,4 @@
 import numpy as np
-from IPython.display import display, Math
-import math
 
 # 26 * x * (math.exp(x))
 def f(x):
